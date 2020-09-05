@@ -1,3 +1,31 @@
-.testclass{
-  padding: 0;
+.msg-relay-form{
+  .form-inputs {
+    margin-left: 5%;
+
+    mat-form-field{
+      width: 80%;
+      font-size: medium;
+    }
+
+    .form-left{
+      width: 50%;
+    }
+
+    .form-right {
+      width: 50%;
+
+      .csv-file-upload{
+        margin: 2%;
+      }
+    }
+  }
+  .form-button{
+    float: right;
+    margin-right: 5%;
+  }
+}
+
+.console-logs{
+  margin: 5%;
+  height: fit-content;
 }
